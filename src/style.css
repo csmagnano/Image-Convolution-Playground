@@ -79,7 +79,7 @@ input#load-image-upload {
       display: none
 }
 
-#settings, #canvases {
+#settings, #canvases, #instructions {
       padding: 2%;
       width: 50%;
       display: inline-block;
