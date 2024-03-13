@@ -39,7 +39,6 @@
                         <li>All negative numbers.</li>
                         <li>All zeros.</li>
                         <li>All zeros, except a 1 in the top center.</li>
-                        <li>All zeros, except 0.5 in the center. </li>
                   </ol> 
 
                   Next, try to find a kernel for each of the following actions:
@@ -48,10 +47,23 @@
                         <li>Detects horizantal edges.</li>
                         <li>Generally detects contrast.</li>
                         <li>Makes the image solid gray.</li>
+                        <li>Slightly brightens the image.</li>
+                        <li>Slightly darkens the image.</li>
                         <li>Keeps as much as possible but removes the dots on the cat's body.</li>
                         <li>Keeps as much of the cat as possible while making the background white.</li>
                         <li>Emphasizes the stars and dots in the image.</li>
                   </ol> 
+
+                  Now, head over to <a href="https://adamharley.com/nn_vis/cnn/2d.html"> https://adamharley.com/nn_vis/cnn/2d.html</a>.
+                  Take a look at the first convolutional layer. 
+                  What features do each of the convolutions represent? 
+                  Try drawing a few different shapes to see what causes the pixels to light up for each kernel.
+
+                  
+                  Try to find a way to draw numbers in a style where the model fails to guess the correct number. 
+                  How were you able to trick the model? Why do you think this is the case?
+
+
             </div>
 
             <div id="settings">
