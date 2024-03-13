@@ -10,14 +10,6 @@ var kernels = [{
             ]
       },
       {
-            "name": "Sharpen",
-            "kernel": [
-                  [0, -1, 0],
-                  [-1, 5, -1],
-                  [0, -1, 0]
-            ]
-      },
-      {
             "name": "Box blur",
             "factor": 1 / 9,
             "kernel": [
