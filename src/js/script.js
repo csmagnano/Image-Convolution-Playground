@@ -17,7 +17,7 @@ const set_weight = function() {
       // Reset name of filter
       kernels[custom].name = "Custom";
 
-      var weight = round(parseFloat($("#kernel-weight").val()), 1);
+      var weight = round(parseFloat($("#kernel-weight").val()), 3);
       // Check that weight is defined and is a number
       if (!isNaN(weight) && weight != undefined) {
             // Assign weight to kernel
